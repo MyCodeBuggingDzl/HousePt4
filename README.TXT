@@ -17,3 +17,7 @@ This project is often used after studying the "shapes" project. It
 adds a class to those ones in "shapes". That class (named "Picture")
 uses the shapes to draw a picture. It can be used to experiment with 
 modifying source code.
+
+Anwsers of part 4:
+
+14. I think the Picture class is able to draw the picture because it gathers the objects and put it in one picture.
