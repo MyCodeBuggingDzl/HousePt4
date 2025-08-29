@@ -16,6 +16,7 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private boolean drawn;
+    private Circle sun2;
 
     /**
      * Constructor for objects of class Picture
@@ -56,6 +57,7 @@ public class Picture
             sun.moveVertical(-40);
             sun.changeSize(80);
             sun.makeVisible();
+            sun.slowMoveVertical(400);
             drawn = true;
         }
     }
@@ -79,6 +81,6 @@ public class Picture
         wall.changeColor("red");
         window.changeColor("black");
         roof.changeColor("green");
-        sun.changeColor("yellow");
+        sun.changeColor("blue");
     }
 }
